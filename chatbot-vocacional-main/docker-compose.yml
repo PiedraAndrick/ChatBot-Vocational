@@ -1,0 +1,10 @@
+services:
+  bot:
+    image: botpython
+    restart: "always"
+    container_name: chatbot
+    ports:
+      - "443:443"
+    environment:
+
+
